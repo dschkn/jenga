@@ -1,0 +1,23 @@
+name: Jenga checks
+on:
+  push:
+    branches: [main, test-development]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            apps/crm/package-lock.json
+            apps/teacher/package-lock.json
+      - run: npm run install:apps
+      - run: npm run check:branding
+      - run: npm run check

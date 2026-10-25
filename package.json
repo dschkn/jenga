@@ -1,0 +1,15 @@
+{
+  "name": "jenga",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {"node": ">=22.13.0"},
+  "scripts": {
+    "install:apps": "npm ci --prefix apps/crm && npm ci --prefix apps/teacher",
+    "dev:crm": "npm --prefix apps/crm run dev -- --port 5173 --strictPort",
+    "dev:teacher": "npm --prefix apps/teacher run dev -- --port 5174 --strictPort",
+    "build": "npm --prefix apps/crm run build && npm --prefix apps/teacher run build",
+    "check": "npm run test:platform && npm --prefix apps/crm run check && npm --prefix apps/teacher test",
+    "test:platform": "node --test packages/platform/*.test.mjs",
+    "check:branding": "node scripts/check-branding.mjs"
+  }
+}

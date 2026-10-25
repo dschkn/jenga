@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.next/
+.wrangler/
+.sites-runtime/
+.vinext/
+*.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+private-data/
+**/node_modules

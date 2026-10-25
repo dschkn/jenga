@@ -1,0 +1,2703 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03-02",
+    "day": 2,
+    "dateLabel": "2 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 1,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 2,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 3,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-03-03",
+    "day": 3,
+    "dateLabel": "3 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 8",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил 780/900), зум 8",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 4,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "date": "2026-03-06",
+    "day": 6,
+    "dateLabel": "6 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "870 из 900",
+    "room": "Zoom 8",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (870/900), зум 8",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 5,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2026-03-06",
+    "day": 6,
+    "dateLabel": "6 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 6,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 7,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 8,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2026-03-09",
+    "day": 9,
+    "dateLabel": "9 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 9,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 10,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 11,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "date": "2026-03-10",
+    "day": 10,
+    "dateLabel": "10 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "60 из 2700",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (60/2700), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 12,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2026-03-13",
+    "day": 13,
+    "dateLabel": "13 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "150 из 2700",
+    "room": "Zoom 8",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (150/2700), зум 8",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 13,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026-03-13",
+    "day": 13,
+    "dateLabel": "13 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 14,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 15,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 16,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2026-03-16",
+    "day": 16,
+    "dateLabel": "16 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 17,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 18,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 19,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2026-03-17",
+    "day": 17,
+    "dateLabel": "17 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил 3/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 20,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "date": "2026-03-20",
+    "day": 20,
+    "dateLabel": "20 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил 4/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 21,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "date": "2026-03-20",
+    "day": 20,
+    "dateLabel": "20 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 22,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 23,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 24,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "date": "2026-03-23",
+    "day": 23,
+    "dateLabel": "23 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 25,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 26,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 27,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "date": "2026-03-24",
+    "day": 24,
+    "dateLabel": "24 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "5 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (5/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 28,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "date": "2026-03-27",
+    "day": 27,
+    "dateLabel": "27 марта",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "6 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (6/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 29,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "date": "2026-03-27",
+    "day": 27,
+    "dateLabel": "27 марта",
+    "time": "18:00",
+    "duration": "18:00–19:00",
+    "language": "Немецкий",
+    "kind": "Проб+конс",
+    "title": "Шувалова Нина",
+    "level": "Пробное",
+    "room": "Аудитория 2",
+    "category": "trial",
+    "note": "18:00 Шувалова Нина проб-конс ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 30,
+        "name": "Шувалова Нина",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "date": "2026-03-27",
+    "day": 27,
+    "dateLabel": "27 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 31,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 32,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 33,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "date": "2026-03-30",
+    "day": 30,
+    "dateLabel": "30 марта",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 34,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 35,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 36,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "date": "2026-03-31",
+    "day": 31,
+    "dateLabel": "31 марта",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "7 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (7/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 37,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "date": "2026-04-03",
+    "day": 3,
+    "dateLabel": "3 апреля",
+    "time": "11:00",
+    "duration": "11:00–12:30",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "8 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "11:00-12:30 Пермяков Даниил (8/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 38,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "date": "2026-04-03",
+    "day": 3,
+    "dateLabel": "3 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.1",
+    "level": "A2.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.1 Вечер 26.01-03.04 ПН/ПТ 6501 ОФ | 4/5 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 39,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 40,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 41,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "date": "2026-04-06",
+    "day": 6,
+    "dateLabel": "6 апреля",
+    "time": "09:30",
+    "duration": "09:30–11:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "9 из 30",
+    "room": "Zoom 7",
+    "category": "individual",
+    "note": "09:30-11:00 Пермяков Даниил (9/30), зум 7",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 42,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "date": "2026-04-06",
+    "day": 6,
+    "dateLabel": "6 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 20.04-03.07 ПН/ПТ 6688 ОФ | 1/3 ауд 2",
+    "cancelled": true,
+    "cancellationReason": "перенос на 20 апреля",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 43,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 44,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 45,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "date": "2026-04-07",
+    "day": 7,
+    "dateLabel": "7 апреля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "9 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (9/30), зум 4",
+    "cancelled": true,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 46,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "date": "2026-04-10",
+    "day": 10,
+    "dateLabel": "10 апреля",
+    "time": "11:00",
+    "duration": "11:00–12:30",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "10 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "11:00-12:30 Пермяков Даниил (10/30), зум 4",
+    "cancelled": true,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 47,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "date": "2026-04-10",
+    "day": 10,
+    "dateLabel": "10 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 20.04-03.07 ПН/ПТ 6688 ОФ | 1/3 ауд 2",
+    "cancelled": true,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 48,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 49,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 50,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "date": "2026-04-13",
+    "day": 13,
+    "dateLabel": "13 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 20.04-03.07 ПН/ПТ 6688 ОФ | 1/3 ауд 2",
+    "cancelled": true,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 51,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 52,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 53,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "date": "2026-04-14",
+    "day": 14,
+    "dateLabel": "14 апреля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "9 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (9/30), зум 4",
+    "cancelled": true,
+    "cancellationReason": "Всем привет! Пермяков все еще болеет, завтра не занимаемся(",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 54,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "date": "2026-04-17",
+    "day": 17,
+    "dateLabel": "17 апреля",
+    "time": "11:00",
+    "duration": "11:00–12:30",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "9 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "11:00-12:30 Пермяков Даниил (9/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Привет всем. Пермяков поправился, завтра занимаемся. после перевода на летнее время мы с ним занимаемся по вт в 10:30: по пт в 11:00",
+    "students": [
+      {
+        "id": 55,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "date": "2026-04-17",
+    "day": 17,
+    "dateLabel": "17 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 20.04-03.07 ПН/ПТ 6688 ОФ | 1/3 ауд 2",
+    "cancelled": true,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 56,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 57,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 58,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "date": "2026-04-20",
+    "day": 20,
+    "dateLabel": "20 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-10.07 ПН/ПТ 6688 ОФ | 1/4 ауд 2",
+    "cancelled": true,
+    "cancellationReason": "на 27.04",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 59,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 60,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 61,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "date": "2026-04-21",
+    "day": 21,
+    "dateLabel": "21 апреля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "10 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (10/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "после перевода на летнее время мы с ним занимаемся по вт в 10:30: по пт в 11:00",
+    "students": [
+      {
+        "id": 62,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "date": "2026-04-24",
+    "day": 24,
+    "dateLabel": "24 апреля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "11 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (11/30), зум 3",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "после перевода на летнее время мы с ним занимаемся по вт в 10:30: по пт в 11:00 Всем привет. Пермяков попросил заниматься оба раза в неделю в 10:30 по мск. Поправьте, пожалуйста, пятницы.",
+    "students": [
+      {
+        "id": 63,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "date": "2026-04-24",
+    "day": 24,
+    "dateLabel": "24 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-10.07 ПН/ПТ 6688 ОФ | 1/4 ауд 2",
+    "cancelled": true,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 64,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 65,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 66,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "date": "2026-04-27",
+    "day": 27,
+    "dateLabel": "27 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-08.06 ПН/ПТ 6688 ОФ | 2/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 67,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 68,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 69,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "date": "2026-04-28",
+    "day": 28,
+    "dateLabel": "28 апреля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "12 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (12/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "после перевода на летнее время мы с ним занимаемся по вт в 10:30: по пт в 11:00 Всем привет. Пермяков попросил заниматься оба раза в неделю в 10:30 по мск. Поправьте, пожалуйста, пятницы.",
+    "students": [
+      {
+        "id": 70,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "date": "2026-04-30",
+    "day": 30,
+    "dateLabel": "30 апреля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "13 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (13/30), зум 3",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Всем привет. Пермяков попросил заниматься оба раза в неделю в 10:30 по мск. Поправьте, пожалуйста, пятницы. Всем привет! С Даниилом сегодня(1.5) занятие БЫЛО. Он говорит, что ему уже не первый раз не присылают напоминалку, но так как мы с ним на связи это не критично. В следующий раз разово занимаемся в пн в 9:45",
+    "students": [
+      {
+        "id": 71,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "date": "2026-04-30",
+    "day": 30,
+    "dateLabel": "30 апреля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-08.06 ПН/ПТ 6688 ОФ | 2/3 ауд 2",
+    "cancelled": true,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 72,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 73,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 74,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "date": "2026-05-04",
+    "day": 4,
+    "dateLabel": "4 мая",
+    "time": "09:45",
+    "duration": "09:45–11:15",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "14 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "09:45-11:15 Пермяков Даниил (14/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Всем привет. Пермяков попросил заниматься оба раза в неделю в 10:30 по мск. Поправьте, пожалуйста, пятницы. В следующий раз разово занимаемся в пн в 9:45",
+    "students": [
+      {
+        "id": 75,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "date": "2026-05-04",
+    "day": 4,
+    "dateLabel": "4 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-08.06 ПН/ПТ 6688 ОФ | 2/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 76,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 77,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 78,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "date": "2026-05-05",
+    "day": 5,
+    "dateLabel": "5 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "14 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (14/30), зум 4",
+    "cancelled": true,
+    "cancellationReason": "В следующий раз разово занимаемся в пн (4.5) в 9:45",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 79,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "date": "2026-05-07",
+    "day": 7,
+    "dateLabel": "7 мая",
+    "time": "12:00",
+    "duration": "12:00–13:00",
+    "language": "Немецкий",
+    "kind": "Тестирование",
+    "title": "Крылова Елена",
+    "level": "Тестирование",
+    "room": "Zoom",
+    "category": "trial",
+    "note": "12:00 Крылова Елена тест, зум",
+    "cancelled": true,
+    "cancellationReason": "Добрый день. Спасибо. Ещё можно отменить тестирование? Я решила в группе с нуля начать заниматься",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 80,
+        "name": "Крылова Елена",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "date": "2026-05-08",
+    "day": 8,
+    "dateLabel": "8 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "15 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (15/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Всем привет. Пермяков попросил заниматься оба раза в неделю в 10:30 по мск. Поправьте, пожалуйста, пятницы.",
+    "students": [
+      {
+        "id": 81,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "date": "2026-05-08",
+    "day": 8,
+    "dateLabel": "8 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-08.06 ПН/ПТ 6688 ОФ | 2/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 82,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 83,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 84,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "date": "2026-05-11",
+    "day": 11,
+    "dateLabel": "11 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-08.06 ПН/ПТ 6688 ОФ | 2/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 85,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 86,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 87,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "date": "2026-05-12",
+    "day": 12,
+    "dateLabel": "12 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "16 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (16/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Всем привет. Пермяков попросил заниматься оба раза в неделю в 10:30 по мск.",
+    "students": [
+      {
+        "id": 88,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "date": "2026-05-15",
+    "day": 15,
+    "dateLabel": "15 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "17 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (17/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Всем привет. Пермяков попросил заниматься оба раза в неделю в 10:30 по мск.",
+    "students": [
+      {
+        "id": 89,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "date": "2026-05-15",
+    "day": 15,
+    "dateLabel": "15 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-08.06 ПН/ПТ 6688 ОФ | 2/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 90,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 91,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 92,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "date": "2026-05-18",
+    "day": 18,
+    "dateLabel": "18 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 93,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 94,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 95,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "date": "2026-05-19",
+    "day": 19,
+    "dateLabel": "19 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "18 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (18/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 96,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "date": "2026-05-22",
+    "day": 22,
+    "dateLabel": "22 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "19 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (19/30), зум 3",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 97,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "date": "2026-05-22",
+    "day": 22,
+    "dateLabel": "22 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 98,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 99,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 100,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "date": "2026-05-25",
+    "day": 25,
+    "dateLabel": "25 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 101,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 102,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 103,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "date": "2026-05-26",
+    "day": 26,
+    "dateLabel": "26 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "20 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (20/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 104,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "date": "2026-05-29",
+    "day": 29,
+    "dateLabel": "29 мая",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "21 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (21/30), зум 3",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 105,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "date": "2026-05-29",
+    "day": 29,
+    "dateLabel": "29 мая",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 106,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 107,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 108,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "date": "2026-06-01",
+    "day": 1,
+    "dateLabel": "1 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 109,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 110,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 111,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "date": "2026-06-02",
+    "day": 2,
+    "dateLabel": "2 июня",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "22 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (22/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 112,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "date": "2026-06-05",
+    "day": 5,
+    "dateLabel": "5 июня",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "23 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (23/30), зум 3",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 113,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "date": "2026-06-05",
+    "day": 5,
+    "dateLabel": "5 июня",
+    "time": "18:00",
+    "duration": "18:00–19:00",
+    "language": "Немецкий",
+    "kind": "Тестирование",
+    "title": "Серова Майя",
+    "level": "Тестирование",
+    "room": "Аудитория 2",
+    "category": "trial",
+    "note": "Серова Майя тест 18:00 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 114,
+        "name": "Серова Майя",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "date": "2026-06-05",
+    "day": 5,
+    "dateLabel": "5 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 115,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 116,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 117,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "date": "2026-06-08",
+    "day": 8,
+    "dateLabel": "8 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 118,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 119,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 120,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "date": "2026-06-09",
+    "day": 9,
+    "dateLabel": "9 июня",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "24 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (24/30), зум 3",
+    "cancelled": true,
+    "cancellationReason": "Всем привет! С Пермяковым на следующей неделе не встречаемся, от будет сдавать экзамен. О следующей встрече договоримся и я напишу вам",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 121,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "date": "2026-06-11",
+    "day": 11,
+    "dateLabel": "11 июня",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "25 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (25/30), зум 3",
+    "cancelled": true,
+    "cancellationReason": "Всем привет! С Пермяковым на следующей неделе не встречаемся, от будет сдавать экзамен. О следующей встрече договоримся и я напишу вам",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 122,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "date": "2026-06-11",
+    "day": 11,
+    "dateLabel": "11 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": true,
+    "cancellationReason": "сообщил студентам что не будет напомнила",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 123,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 124,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 125,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "date": "2026-06-15",
+    "day": 15,
+    "dateLabel": "15 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 126,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 127,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 128,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "date": "2026-06-16",
+    "day": 16,
+    "dateLabel": "16 июня",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил 24/30), зум 4",
+    "cancelled": true,
+    "cancellationReason": "Привет, еще нет. В этот вторник еще НЕ встречаемся",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 129,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "date": "2026-06-19",
+    "day": 19,
+    "dateLabel": "19 июня",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "24 из 30",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (24/30), зум 3",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Привет всем! С Пермяковым встречаемся завтра",
+    "students": [
+      {
+        "id": 130,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "date": "2026-06-19",
+    "day": 19,
+    "dateLabel": "19 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 131,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 132,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 133,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "date": "2026-06-22",
+    "day": 22,
+    "dateLabel": "22 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 134,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 135,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 136,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "date": "2026-06-23",
+    "day": 23,
+    "dateLabel": "23 июня",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "25 из 30",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (25/30), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 137,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "date": "2026-06-26",
+    "day": 26,
+    "dateLabel": "26 июня",
+    "time": "12:30",
+    "duration": "12:30–14:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "26 из 30",
+    "room": "Zoom 6",
+    "category": "individual",
+    "note": "12:30-14:00 Пермяков Даниил (26/30), зум 6",
+    "cancelled": true,
+    "cancellationReason": "Привет всем! С Пермяковым занимаемся в следующий раз 30.06",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 138,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "date": "2026-06-26",
+    "day": 26,
+    "dateLabel": "26 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий A2.2",
+    "level": "A2.2",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем A2.2 Вечер 27.04-26.06 ПН/ПТ 6688 ОФ | 3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 139,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 140,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 141,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "date": "2026-06-29",
+    "day": 29,
+    "dateLabel": "29 июня",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий B1.1",
+    "level": "B1.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем B1.1 Вечер 29.06-04.09 ПН/ПТ 6878 ОФ |3/3ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 142,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 143,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 144,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "date": "2026-06-30",
+    "day": 30,
+    "dateLabel": "30 июня",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (90 минут), зум 4 постоянный",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Привет всем! С Пермяковым занимаемся в следующий раз 30.06",
+    "students": [
+      {
+        "id": 145,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "date": "2026-06-30",
+    "day": 30,
+    "dateLabel": "30 июня",
+    "time": "17:00",
+    "duration": "17:00–18:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Шарипова Алиса",
+    "level": "1 из 10",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "17:00-18:00 Шарипова Алиса (1/10), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "тг+, почта+",
+    "students": [
+      {
+        "id": 146,
+        "name": "Шарипова Алиса",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "date": "2026-07-01",
+    "day": 1,
+    "dateLabel": "1 июля",
+    "time": "16:30",
+    "duration": "16:30–17:30",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Шарипова Алиса",
+    "level": "2 из 10",
+    "room": "Zoom 3",
+    "category": "individual",
+    "note": "16:30-17:30 Шарипова Алиса (2/10), зум  3",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 147,
+        "name": "Шарипова Алиса",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "date": "2026-07-03",
+    "day": 3,
+    "dateLabel": "3 июля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (90 минут), зум 4 постоянный",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 148,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "date": "2026-07-03",
+    "day": 3,
+    "dateLabel": "3 июля",
+    "time": "18:00",
+    "duration": "18:00–19:00",
+    "language": "Немецкий",
+    "kind": "Проб+конс",
+    "title": "Панова Диана",
+    "level": "Пробное",
+    "room": "Аудитория 2",
+    "category": "trial",
+    "note": "18:00 Панова Диана проб-конс ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 149,
+        "name": "Панова Диана",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "date": "2026-07-03",
+    "day": 3,
+    "dateLabel": "3 июля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий B1.1",
+    "level": "B1.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем B1.1 Вечер 29.06-04.09 ПН/ПТ 6878 ОФ |3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 150,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 151,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 152,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "date": "2026-07-06",
+    "day": 6,
+    "dateLabel": "6 июля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий B1.1",
+    "level": "B1.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем B1.1 Вечер 29.06-04.09 ПН/ПТ 6878 ОФ |3/3ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "нужна замена на время отпуска",
+    "students": [
+      {
+        "id": 153,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 154,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 155,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "date": "2026-07-07",
+    "day": 7,
+    "dateLabel": "7 июля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (90 минут), зум 4 постоянный",
+    "cancelled": true,
+    "cancellationReason": "после оконч не прод не было",
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 156,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "date": "2026-07-07",
+    "day": 7,
+    "dateLabel": "7 июля",
+    "time": "17:00",
+    "duration": "17:00–18:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Шарипова Алиса",
+    "level": "3 из 10",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "17:00-18:00 Шарипова Алиса (3/10), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 157,
+        "name": "Шарипова Алиса",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "date": "2026-07-08",
+    "day": 8,
+    "dateLabel": "8 июля",
+    "time": "16:30",
+    "duration": "16:30–17:30",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Шарипова Алиса",
+    "level": "4 из 10",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "16:30-17:30 Шарипова Алиса (4/10), зум 4",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 158,
+        "name": "Шарипова Алиса",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "date": "2026-07-10",
+    "day": 10,
+    "dateLabel": "10 июля",
+    "time": "10:30",
+    "duration": "10:30–12:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "90 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:00 Пермяков Даниил (90 минут), зум 4 постоянный",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Следующее занятие в пятницу (90 мин) и последнее будет во вторник (120 мин)",
+    "students": [
+      {
+        "id": 159,
+        "name": "Пермяков Даниил",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "date": "2026-07-10",
+    "day": 10,
+    "dateLabel": "10 июля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий B1.1",
+    "level": "B1.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем B1.1 Вечер 29.06-04.09 ПН/ПТ 6878 ОФ |3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 160,
+        "name": "Участник группы 1",
+        "attendance": "present"
+      },
+      {
+        "id": 161,
+        "name": "Участник группы 2",
+        "attendance": "present"
+      },
+      {
+        "id": 162,
+        "name": "Участник группы 3",
+        "attendance": "present"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "date": "2026-07-13",
+    "day": 13,
+    "dateLabel": "13 июля",
+    "time": "18:00",
+    "duration": "18:00–19:00",
+    "language": "Немецкий",
+    "kind": "Проб+конс",
+    "title": "Рассохин Григорий",
+    "level": "Пробное",
+    "room": "Аудитория 2",
+    "category": "trial",
+    "note": "18:00 проб+конс Рассохин Григорий ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 163,
+        "name": "Рассохин Григорий",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "date": "2026-07-13",
+    "day": 13,
+    "dateLabel": "13 июля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий B1.1",
+    "level": "B1.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем B1.1 Вечер 29.06-04.09 ПН/ПТ 6878 ОФ |3/3 ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 164,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 165,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 166,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "date": "2026-07-14",
+    "day": 14,
+    "dateLabel": "14 июля",
+    "time": "10:30",
+    "duration": "10:30–12:30",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Пермяков Даниил",
+    "level": "120 минут",
+    "room": "Zoom 4",
+    "category": "individual",
+    "note": "10:30-12:30 Пермяков Даниил (120 минут), зум 4 постоянный",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": "Следующее занятие в пятницу (90 мин) и последнее будет во вторник (120 мин) всем привет! последнее занятие с Пермяковым будет во вторник, 10:30-12:30 (2 часа) Пермяков не прод: Я пока не знаю точно когда и в каком виде я буду дальше учить немецкий, поэтому не хочу врать и придумывать. Но прямо сейчас я хочу взять паузу на несколько месяцев",
+    "students": [
+      {
+        "id": 167,
+        "name": "Пермяков Даниил",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "date": "2026-07-14",
+    "day": 14,
+    "dateLabel": "14 июля",
+    "time": "17:00",
+    "duration": "17:00–18:00",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Шарипова Алиса",
+    "level": "5 из 10",
+    "room": "Zoom",
+    "category": "individual",
+    "note": "17:00-18:00 Шарипова Алиса (5/10), зум",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 168,
+        "name": "Шарипова Алиса",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "date": "2026-07-15",
+    "day": 15,
+    "dateLabel": "15 июля",
+    "time": "16:30",
+    "duration": "16:30–17:30",
+    "language": "Немецкий",
+    "kind": "Индивидуально",
+    "title": "Шарипова Алиса",
+    "level": "6 из 10",
+    "room": "Zoom",
+    "category": "individual",
+    "note": "16:30-17:30 Шарипова Алиса (6/10), зум",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 169,
+        "name": "Шарипова Алиса",
+        "attendance": null
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "date": "2026-07-17",
+    "day": 17,
+    "dateLabel": "17 июля",
+    "time": "19:00",
+    "duration": "19:00–20:30",
+    "language": "Немецкий",
+    "kind": "Группа",
+    "title": "Немецкий B1.1",
+    "level": "B1.1",
+    "room": "Аудитория 2",
+    "category": "group",
+    "note": "Нем B1.1 Вечер 29.06-04.09 ПН/ПТ 6878 ОФ |3/3ауд 2",
+    "cancelled": false,
+    "cancellationReason": null,
+    "teacherComment": null,
+    "students": [
+      {
+        "id": 170,
+        "name": "Участник группы 1",
+        "attendance": null
+      },
+      {
+        "id": 171,
+        "name": "Участник группы 2",
+        "attendance": null
+      },
+      {
+        "id": 172,
+        "name": "Участник группы 3",
+        "attendance": null
+      }
+    ]
+  }
+]
+

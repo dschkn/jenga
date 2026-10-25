@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Jenga CRM",
+  "short_name": "Jenga CRM",
+  "description": "Управление школой",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#FFF200",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "/jenga-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
