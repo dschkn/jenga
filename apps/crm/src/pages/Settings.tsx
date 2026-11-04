@@ -1,3 +1,4 @@
+import ResetDemo from '../features/communications/ResetDemo';
 import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Button } from '../components/ui/button';
@@ -52,6 +53,7 @@ export default function Settings() {
         </div>
       </div>
 
+      <ResetDemo />
       <Tabs defaultValue="profile" className="space-y-4">
         <TabsList>
           <TabsTrigger value="profile">Профиль</TabsTrigger>

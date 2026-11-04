@@ -61,7 +61,7 @@ export default function Teachers() {
       if (group.teacherId === dismissTarget.id) Object.assign(group, unassigned);
     });
     try {
-      const key = 'dk-groups-workspace-v2';
+      const key = 'jenga-demo-v02-groups-workspace-v2';
       const workspace = JSON.parse(localStorage.getItem(key) || '{}');
       const drafts = workspace.groupDrafts || {};
       realGroups.forEach(group => {

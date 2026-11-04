@@ -19,8 +19,8 @@ export interface TeacherDirectoryEntry {
   createdAt: string;
 }
 
-const STORAGE_KEY = 'dk-teacher-directory-v1';
-export const TEACHER_DIRECTORY_EVENT = 'dk-teacher-directory-change';
+const STORAGE_KEY = 'jenga-demo-v02-teacher-directory-v1';
+export const TEACHER_DIRECTORY_EVENT = 'jenga-demo-v02-teacher-directory-change';
 
 const seedTeachers = (): TeacherDirectoryEntry[] => demoTeacherOptions.map((teacher, index) => ({
   id: teacher.id,

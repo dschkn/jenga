@@ -106,7 +106,7 @@ export default function TeacherSchedule() {
   useEffect(() => subscribeToTeacherDirectory(() => setTeacherDirectory(getTeacherDirectory())), []);
   const startedGroups: Record<string, { firstLessonDate: string; format: 'online' | 'offline' }> = (() => {
     try {
-      return JSON.parse(localStorage.getItem('dk-started-groups-v1') || '{}');
+      return JSON.parse(localStorage.getItem('jenga-demo-v02-started-groups-v1') || '{}');
     } catch {
       return {};
     }
@@ -155,7 +155,7 @@ export default function TeacherSchedule() {
     const keysToClean: string[] = [];
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i);
-      if (key?.startsWith('teacher_comments_') || key?.startsWith('schedule_comments_')) {
+      if (key?.startsWith('jenga-demo-v02-teacher_comments_') || key?.startsWith('jenga-demo-v02-schedule_comments_')) {
         try {
           const raw = localStorage.getItem(key);
           if (!raw) { keysToClean.push(key); continue; }
@@ -204,7 +204,7 @@ export default function TeacherSchedule() {
   const [cfStudentQuery, setCfStudentQuery] = useState('');
   const [studentCreateOpen, setStudentCreateOpen] = useState(false);
   const [pendingApplicants, setPendingApplicants] = useState<{ id: string; name: string; phone: string; email: string }[]>(() => {
-    try { return JSON.parse(localStorage.getItem('dk-created-applications-v1') || '[]').map((item: { id: string; name: string; phone?: string; email?: string }) => ({ id: `application:${item.id}`, name: item.name, phone: item.phone || '', email: item.email || '' })); } catch { return []; }
+    try { return JSON.parse(localStorage.getItem('jenga-demo-v02-created-applications-v1') || '[]').map((item: { id: string; name: string; phone?: string; email?: string }) => ({ id: `application:${item.id}`, name: item.name, phone: item.phone || '', email: item.email || '' })); } catch { return []; }
   });
   const [cfRepeat, setCfRepeat] = useState('none');
   const [cfComment, setCfComment] = useState('');
@@ -2258,8 +2258,8 @@ export default function TeacherSchedule() {
         initialName={cfStudentQuery}
         onOpenChange={setStudentCreateOpen}
         onCreated={(application) => {
-          const stored = (() => { try { return JSON.parse(localStorage.getItem('dk-created-applications-v1') || '[]'); } catch { return []; } })();
-          localStorage.setItem('dk-created-applications-v1', JSON.stringify([application, ...stored]));
+          const stored = (() => { try { return JSON.parse(localStorage.getItem('jenga-demo-v02-created-applications-v1') || '[]'); } catch { return []; } })();
+          localStorage.setItem('jenga-demo-v02-created-applications-v1', JSON.stringify([application, ...stored]));
           const option = { id: `application:${application.id}`, name: application.name, phone: application.phone, email: application.email };
           setPendingApplicants(current => [option, ...current]);
           setCfStudent(option.id);

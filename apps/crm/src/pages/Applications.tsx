@@ -60,38 +60,10 @@ export default function Applications() {
     const fromStore = getAllApplications();
     let created: Application[] = [];
     try {
-      created = JSON.parse(localStorage.getItem('dk-created-applications-v1') || '[]').map((item: Application & { createdAt: string; updatedAt: string }) => ({ ...item, createdAt: new Date(item.createdAt), updatedAt: new Date(item.updatedAt), history: item.history || [] }));
+      created = JSON.parse(localStorage.getItem('jenga-demo-v02-created-applications-v1') || '[]').map((item: Application & { createdAt: string; updatedAt: string }) => ({ ...item, createdAt: new Date(item.createdAt), updatedAt: new Date(item.updatedAt), history: item.history || [] }));
     } catch { /* ignore broken local application cache */ }
     if (fromStore.length > 0 || created.length > 0) return [...created, ...fromStore];
-    // Fallback: generate mock data if store is empty
-    const apps: Application[] = [];
-    const sources: Application['source'][] = ['vk', 'whatsapp', 'telegram', 'instagram', 'website', 'mango_office'];
-    const statuses: Application['status'][] = ['new', 'in_progress', 'contacted', 'trial_lesson', 'enrolled', 'rejected'];
-    const names = Array.from({ length: 8 }, (_, index) => `Тестовый клиент ${String(index + 1).padStart(2, '0')}`);
-    for (let i = 0; i < 25; i++) {
-      apps.push({
-        id: `app-${i + 1}`,
-        name: names[Math.floor(Math.random() * names.length)],
-        phone: `+1 202-555-${String(150 + i).padStart(4, '0')}`,
-        email: Math.random() > 0.5 ? `user${i + 1}@example.com` : undefined,
-        source: sources[Math.floor(Math.random() * sources.length)],
-        status: statuses[Math.floor(Math.random() * statuses.length)],
-        comment: Math.random() > 0.6 ? 'Интересует немецкий язык, уровень А1' : undefined,
-        assignedManager: Math.random() > 0.3 ? users[Math.floor(Math.random() * users.length)] : undefined,
-        isNewClient: Math.random() > 0.3,
-        relatedStudentId: Math.random() > 0.7 ? `student-${Math.floor(Math.random() * 50)}` : undefined,
-        createdAt: new Date(Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000),
-        updatedAt: new Date(Date.now() - Math.random() * 2 * 24 * 60 * 60 * 1000),
-        history: [{
-          id: `h-${i}-1`,
-          type: 'status_change',
-          content: 'Заявка создана',
-          user: users[0],
-          createdAt: new Date(Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000),
-        }],
-      });
-    }
-    return apps.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+    return [];
   });
   const [selectedApp, setSelectedApp] = useState<Application | null>(null);
   const [searchQuery, setSearchQuery] = useState('');

@@ -13,7 +13,7 @@ import { getAdminDirectory } from '../data/adminDirectory';
 import { importedStudents } from '../data/importedStudents';
 import { useCurrentUser } from '../hooks/use-auth';
 
-const TASKS_KEY = 'dk-admin-kanban-v1';
+const TASKS_KEY = 'jenga-demo-v02-admin-kanban-v1';
 const TODAY = new Date();
 const TODAY_KEY = format(TODAY, 'yyyy-MM-dd');
 
@@ -21,16 +21,12 @@ function loadTasks(): DemoBoardTask[] {
   try { return JSON.parse(localStorage.getItem(TASKS_KEY) || 'null') || demoAdminTasks; } catch { return demoAdminTasks; }
 }
 
-const teamSchedule = [
-  { time: '10:00', title: 'Открытый урок немецкого A1', place: 'Кабинет 3' },
-  { time: '15:30', title: 'Разговорный клуб: Berlin', place: 'Большой зал' },
-  { time: '19:00', title: 'Знакомство с преподавателями', place: 'Онлайн' },
-];
+const teamSchedule: { time: string; title: string; place: string }[] = [];
 
 export default function Dashboard() {
   const { user, userId } = useCurrentUser();
   const administrators = getAdminDirectory().filter(admin => admin.active);
-  const notesKey = `dk-personal-notes-${userId}`;
+  const notesKey = `jenga-demo-v02-personal-notes-${userId}`;
   const [noteDraft, setNoteDraft] = useState('');
   const [notes, setNotes] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem(notesKey) || '[]'); } catch { return []; } });
   useEffect(() => localStorage.setItem(notesKey, JSON.stringify(notes)), [notes, notesKey]);
@@ -39,7 +35,7 @@ export default function Dashboard() {
     if (byName >= 0) return byName;
     return [...userId].reduce((sum, char) => sum + char.charCodeAt(0), 0) % Math.max(administrators.length, 1);
   }, [user?.fullName, userId, administrators]);
-  const admin = administrators[adminIndex] || getAdminDirectory()[0];
+  const admin = administrators[adminIndex] || { id: userId, shortName: "Администратор" };
   const tasks = loadTasks();
   const personalTasks = tasks.filter((task) => task.status !== 'completed' && task.assigneeId === admin.id).slice(0, 5);
   const displayedTasks = personalTasks.length ? personalTasks : tasks.filter((task) => task.status !== 'completed').slice(adminIndex * 2, adminIndex * 2 + 4);

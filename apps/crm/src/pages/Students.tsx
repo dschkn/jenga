@@ -73,9 +73,9 @@ export default function Students() {
 
   // Auto-open student profile from localStorage (navigated from schedule)
   useEffect(() => {
-    const studentId = localStorage.getItem('open_student_id');
+    const studentId = localStorage.getItem('jenga-demo-v02-open_student_id');
     if (studentId) {
-      localStorage.removeItem('open_student_id');
+      localStorage.removeItem('jenga-demo-v02-open_student_id');
       const student = allStudents.find(s => s.id === studentId);
       if (student) setSelectedStudent(student);
     }

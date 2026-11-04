@@ -6,28 +6,7 @@ export interface DemoTeacherOption {
   isOnlineOnly?: boolean;
 }
 
-const anonymizedTeacherNames = [
-  'Борков Евсей',
-  'Инна Силантьева',
-  'Юна Паршина',
-  'Белецкая Алина',
-  'Гарик Волков',
-  'Виктор Семёнов',
-  'Инга Смольская',
-  'Нателла Шилова',
-  'Майя Дроздова',
-  'Ева Сафонова',
-  'Свана Соколова',
-  'Тамара Антипова',
-  'Нателла Жукова',
-  'Евлалия Малинина',
-  'Дарина Шестова',
-  'Арсений Дивов',
-  'Анфиса Романова',
-  'Рустам Романов',
-  'Нана Гордеева',
-  'Вита Симонова',
-];
+const anonymizedTeacherNames: string[] = [];
 
 export const demoTeacherOptions: DemoTeacherOption[] = anonymizedTeacherNames.map((name, index) => ({
   id: `t${index + 1}`,

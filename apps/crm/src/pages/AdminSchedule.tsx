@@ -11,7 +11,7 @@ import { demoAdminShifts } from '../data/demoAdministrators';
 import { getAdminDirectory } from '../data/adminDirectory';
 import { cn } from '../lib/utils';
 
-const STORAGE_KEY = 'dk-admin-schedule-overrides-v1';
+const STORAGE_KEY = 'jenga-demo-v02-admin-schedule-overrides-v1';
 const TODAY = startOfDay(new Date());
 const hours = Array.from({ length: 12 }, (_, index) => index + 9);
 type ScheduleMap = Record<string, Record<string, number[]>>;

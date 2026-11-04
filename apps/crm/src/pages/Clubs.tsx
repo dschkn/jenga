@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { Card, CardHeader } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
@@ -41,65 +41,9 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '../components/ui/dropdown-menu';
-import { getAllStudents } from '../data/selectors';
-import { Club, ClubMember, Student } from '../types';
+import { Club, ClubMember } from '../types';
 import { format } from 'date-fns';
 import { cn } from '../lib/utils';
-
-// Генерация тестовых клубов
-function generateClubs(students: Student[]): Club[] {
-  const clubs: Club[] = [
-    {
-      id: 'club-1',
-      name: 'Немецкий онлайн',
-      description: 'Разговорный клуб немецкого языка онлайн',
-      language: 'German',
-      format: 'online',
-      schedule: [{ dayOfWeek: 2, startTime: '18:00', endTime: '19:30', zoomRoom: 'zoom-de-1' }],
-      members: [],
-      status: 'active',
-    },
-    {
-      id: 'club-2',
-      name: 'Немецкий офлайн',
-      description: 'Разговорный клуб немецкого языка в офисе',
-      language: 'German',
-      format: 'offline',
-      schedule: [{ dayOfWeek: 4, startTime: '18:00', endTime: '19:30', classroom: 'Room 1' }],
-      members: [],
-      status: 'active',
-    },
-    {
-      id: 'club-3',
-      name: 'Английский B2/C1',
-      description: 'Продвинутый разговорный клуб английского',
-      language: 'English',
-      level: 'B2',
-      format: 'online',
-      schedule: [{ dayOfWeek: 3, startTime: '19:00', endTime: '20:30', zoomRoom: 'zoom-en-1' }],
-      members: [],
-      status: 'active',
-    },
-  ];
-
-  // Добавляем участников
-  clubs.forEach((club) => {
-    const numMembers = Math.floor(Math.random() * 15) + 5;
-    for (let i = 0; i < numMembers; i++) {
-      const student = students[Math.floor(Math.random() * students.length)];
-      const paymentTypes: ClubMember['paymentType'][] = ['subscription', 'single', 'trial'];
-      club.members.push({
-        id: `member-${club.id}-${i}`,
-        student,
-        paymentType: paymentTypes[Math.floor(Math.random() * paymentTypes.length)],
-        lessonsRemaining: Math.floor(Math.random() * 8),
-        joinedAt: new Date(Date.now() - Math.random() * 30 * 24 * 60 * 60 * 1000),
-      });
-    }
-  });
-
-  return clubs;
-}
 
 const dayNames = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
 
@@ -110,8 +54,7 @@ const paymentTypeConfig: Record<ClubMember['paymentType'], { label: string; colo
 };
 
 export default function Clubs() {
-  const allStudents = useMemo(() => getAllStudents(), []);
-  const [clubs] = useState<Club[]>(() => generateClubs(allStudents));
+  const [clubs] = useState<Club[]>([]);
   const [selectedClub, setSelectedClub] = useState<Club | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [filterLanguage, setFilterLanguage] = useState('all');

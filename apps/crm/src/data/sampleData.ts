@@ -262,7 +262,7 @@ export const allGroups: Group[] = realGroups.map(group => ({
   name: group.name,
   language: group.language,
   level: (group.level.match(/[ABC]\d/)?.[0] || 'A2') as Group['level'],
-  teacher: users.find(user => user.id === group.teacherId) || users.find(user => user.role === 'teacher')!,
+  teacher: users.find(user => user.id === group.teacherId) || { id: group.teacherId || '', name: group.teacherName || 'Не назначен', role: 'teacher' as const, email: '', phone: '' },
   schedule: group.schedule,
   startDate: group.startDate,
   endDate: group.endDate,
@@ -316,7 +316,7 @@ export function generateTasks(count: number): Task[] {
   return tasks;
 }
 
-export const allTasks = generateTasks(35);
+export const allTasks: Task[] = [];
 
 function generateMessages(): ChatConversation['messages'] {
   const messages: ChatConversation['messages'] = [];
@@ -371,7 +371,7 @@ export function generateConversations(count: number): ChatConversation[] {
   return conversations.sort((a, b) => b.lastMessageTime.getTime() - a.lastMessageTime.getTime());
 }
 
-export const allConversations = generateConversations(25);
+export const allConversations: ChatConversation[] = [];
 
 export function generateTeachers(): Teacher[] {
   return teachers.map((teacher, index) => {
@@ -442,7 +442,7 @@ export function generatePayments(count: number): Payment[] {
   });
 }
 
-export const allPayments = generatePayments(80);
+export const allPayments: Payment[] = [];
 
 export function generateEvents(): ClubEvent[] {
   const events: ClubEvent[] = [];
@@ -495,7 +495,7 @@ export function generateEvents(): ClubEvent[] {
   return events;
 }
 
-export const allEvents = generateEvents();
+export const allEvents: ClubEvent[] = [];
 
 export const permissions: Permission[] = [
   { id: 'p1', name: 'view_dashboard', description: 'View dashboard', module: 'Dashboard' },
@@ -573,7 +573,7 @@ export function generateLessons(count: number): Lesson[] {
   return lessons;
 }
 
-export const allLessons = generateLessons(60);
+export const allLessons: Lesson[] = [];
 
 export function getKpiData() {
   return {
@@ -996,3 +996,5 @@ function _seedStore(): void {
 }
 
 _seedStore();
+
+if (import.meta.env.VITE_DATA_SOURCE !== 'supabase') DataStore.getInstance().enableDemoPersistence();

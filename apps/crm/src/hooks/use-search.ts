@@ -81,7 +81,7 @@ export function useGlobalSearch() {
     setIsOpen(false);
     setQuery('');
     if (result.type === 'student') {
-      localStorage.setItem('open_student_id', result.id);
+      localStorage.setItem('jenga-demo-v02-open_student_id', result.id);
     }
     navigate(result.route);
   }, [navigate]);

@@ -83,13 +83,13 @@ export function getMondayFirstDayIndex(date: Date): number {
 
 export function loadComments(weekKey: string): CellComment[] {
   try {
-    const data = localStorage.getItem(`schedule_comments_${weekKey}`);
+    const data = localStorage.getItem(`jenga-demo-v02-schedule_comments_${weekKey}`);
     return data ? JSON.parse(data) : [];
   } catch { return []; }
 }
 
 export function saveComments(weekKey: string, comments: CellComment[]) {
-  localStorage.setItem(`schedule_comments_${weekKey}`, JSON.stringify(comments));
+  localStorage.setItem(`jenga-demo-v02-schedule_comments_${weekKey}`, JSON.stringify(comments));
 }
 
 export function cleanTeacherComments(comments: TeacherComment[]): TeacherComment[] {
@@ -98,23 +98,23 @@ export function cleanTeacherComments(comments: TeacherComment[]): TeacherComment
 
 export function loadTeacherComments(weekKey: string): TeacherComment[] {
   try {
-    const data = localStorage.getItem(`teacher_comments_${weekKey}`);
+    const data = localStorage.getItem(`jenga-demo-v02-teacher_comments_${weekKey}`);
     const comments = data ? JSON.parse(data) : [];
     const cleaned = Array.isArray(comments) ? cleanTeacherComments(comments) : [];
     if (cleaned.length !== (Array.isArray(comments) ? comments.length : 0)) {
-      localStorage.setItem(`teacher_comments_${weekKey}`, JSON.stringify(cleaned));
+      localStorage.setItem(`jenga-demo-v02-teacher_comments_${weekKey}`, JSON.stringify(cleaned));
     }
     return cleaned;
   } catch { return []; }
 }
 
 export function saveTeacherComments(weekKey: string, comments: TeacherComment[]) {
-  localStorage.setItem(`teacher_comments_${weekKey}`, JSON.stringify(cleanTeacherComments(comments)));
+  localStorage.setItem(`jenga-demo-v02-teacher_comments_${weekKey}`, JSON.stringify(cleanTeacherComments(comments)));
 }
 
 export function loadIndividualLessons(): TeacherScheduleItem[] {
   try {
-    const data = localStorage.getItem('individual_lessons');
+    const data = localStorage.getItem('jenga-demo-v02-individual_lessons');
     if (!data) return [];
 
     type StoredLesson = Omit<TeacherScheduleItem, 'date' | 'originalDate'> & {
@@ -132,5 +132,5 @@ export function loadIndividualLessons(): TeacherScheduleItem[] {
 }
 
 export function saveIndividualLessons(lessons: TeacherScheduleItem[]) {
-  localStorage.setItem('individual_lessons', JSON.stringify(lessons));
+  localStorage.setItem('jenga-demo-v02-individual_lessons', JSON.stringify(lessons));
 }
