@@ -1,15 +1,13 @@
-import { readdir, readFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
 import assert from 'node:assert/strict';
-const excluded = new Set(['node_modules', 'dist', '.next', '.vinext', '.wrangler', '.git']);
-async function scan(path) {
- for (const entry of await readdir(path, {withFileTypes:true})) {
-  if (excluded.has(entry.name)) continue;
-  const name = `${path}/${entry.name}`;
-  if (entry.isDirectory()) { await scan(name); continue; }
-  if (!/\.(tsx?|jsx?|html|css|json|webmanifest|svg)$/.test(name)) continue;
-  const content = await readFile(name, 'utf8');
-  assert.doesNotMatch(content, /deutsch[- ]?klub|дойч[- ]?клуб|немецкий клуб|deutsch2026|dk-logo|dk-mark|logo-deutsch/i, name);
- }
+// Check the complete current tree (including docs, scripts, SQL and filenames), not history.
+const forbidden = new RegExp(['deu' + 'tsch[\\s_-]*k' + 'lub', 'дой' + 'ч[\\s_-]*клуб', 'немецкий' + ' клуб', 'deu' + 'tsch2026', '(?:^|["\'`/])d' + 'k[-_]'].join('|'), 'im');
+const files = execFileSync('git', ['ls-files', '--cached', '--others', '--exclude-standard', '-z'], { encoding:'utf8' }).split('\0').filter(Boolean);
+for (const file of files) {
+ assert.doesNotMatch(file, forbidden, `filename: ${file}`);
+ const buffer = await readFile(file);
+ // Textual metadata in binary files is scanned too; no asset rewriting.
+ assert.doesNotMatch(buffer.toString('utf8'), forbidden, file);
 }
-await scan('apps');
-console.log('Jenga branding check passed');
+console.log(`Jenga branding check passed: ${files.length} files`);

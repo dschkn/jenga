@@ -273,6 +273,8 @@ export default function Login() {
               )}
             </button>
           </form>
+          {import.meta.env.VITE_DATA_SOURCE !== 'supabase' && <button type="button" className="mt-4 w-full rounded-lg border border-black bg-[#fff200] px-4 py-3 font-medium text-black" onClick={() => { setCurrentUser('u1'); navigate('/groups'); }}>Открыть локальное демо</button>}
+
 
           {/* Demo credentials */}
           <div

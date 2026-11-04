@@ -13,8 +13,8 @@ export interface AdminDirectoryEntry extends DemoAdministrator {
   createdAt: string;
 }
 
-const STORAGE_KEY = 'dk-admin-directory-v1';
-export const ADMIN_DIRECTORY_EVENT = 'dk-admin-directory-change';
+const STORAGE_KEY = 'jenga-demo-v02-admin-directory-v1';
+export const ADMIN_DIRECTORY_EVENT = 'jenga-demo-v02-admin-directory-change';
 
 const colors = ['#c8d3e3', '#c4ddcf', '#d8cbe9', '#c0dbea', '#ead8bd', '#e6c6cc', '#c9d0df'];
 

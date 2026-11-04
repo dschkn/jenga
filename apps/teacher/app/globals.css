@@ -626,3 +626,18 @@ h1 { margin: 0; font-size: clamp(34px, 4vw, 51px); line-height: .98; letter-spac
 .login-brand > img { width: 88px; height: 88px; object-fit: contain; border-radius: 20px; }
 .jenga-wordmark { display: block; margin-top: 12px; font-size: 38px; font-weight: 700; letter-spacing: -0.04em; }
 .suite-link { display: inline-flex; align-items: center; gap: 8px; padding: 12px; color: inherit; font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
+
+/* Jenga communications: compact, local-only prototype. */
+.jenga-chats { max-width: 900px; margin: auto; padding: 24px; }
+.jenga-chats h1 { font-size: 28px; margin: 8px 0; }
+.jenga-chats header p, .jenga-chats small { color: #666; font-size: 13px; }
+.jenga-chats .chat-notice { background: #fffbd6; border: 1px solid #e6dc8a; padding: 12px; border-radius: 8px; font-size: 13px; margin: 20px 0; }
+.jenga-chats label { display: block; font-size: 14px; }
+.jenga-chats select, .jenga-chats textarea { display: block; width: 100%; border: 1px solid #ddd; border-radius: 8px; padding: 12px; background: white; margin: 8px 0; }
+.jenga-chats textarea { min-height: 80px; }
+.jenga-chats .chat-log { min-height: 180px; max-height: 45vh; overflow: auto; padding: 16px 0; }
+.jenga-chats article { background: white; border: 1px solid #ddd; border-radius: 8px; margin: 10px 0; padding: 12px; }
+.jenga-chats article p { white-space: pre-wrap; overflow-wrap: anywhere; }
+.jenga-chats form button { border: 0; border-radius: 8px; background: #fff200; color: #111; padding: 12px 20px; font-weight: 600; }
+.jenga-chats button:disabled { opacity: .5; }
+@media (max-width: 700px) { .jenga-chats { padding: 16px 8px 100px; } .bottom-nav { grid-template-columns: repeat(5, 1fr); } }

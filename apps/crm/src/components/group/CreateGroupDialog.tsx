@@ -6,7 +6,7 @@ import { Input } from '../ui/input';
 import { Label } from '../ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 import { DataStore } from '../../data/store';
-import { realGroups } from '../../data/realGroups';
+import { realGroups, saveCreatedGroups } from '../../data/realGroups';
 import { getTeacherDirectory } from '../../data/teacherDirectory';
 import type { ScheduleItem } from '../../types';
 import { NormalizedGroup, NormalizedScheduleEntry } from '../../types/normalized';
@@ -201,6 +201,7 @@ export default function CreateGroupDialog({ open, onOpenChange, onCreated }: Cre
 
     onOpenChange(false);
     resetForm();
+    saveCreatedGroups();
     onCreated?.(groupId);
   };
 

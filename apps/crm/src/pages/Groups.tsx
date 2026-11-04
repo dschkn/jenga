@@ -1,3 +1,4 @@
+import { getDemoRepository } from '../../../../packages/platform/demo.mjs';
 import { useEffect, useMemo, useState } from "react";
 import { format } from "date-fns";
 import {
@@ -74,9 +75,9 @@ import { buildCourseOccurrences, endTimeForAcademicHours, nextCourseStart, sched
 import { DataStore } from "../data/store";
 import type { Student } from "../types";
 
-const GROUPS_KEY = "dk-groups-workspace-v2";
-const TASKS_KEY = "dk-admin-kanban-v1";
-const STARTED_GROUPS_KEY = "dk-started-groups-v1";
+const GROUPS_KEY = "jenga-demo-v02-groups-workspace-v2";
+const TASKS_KEY = "jenga-demo-v02-admin-kanban-v1";
+const STARTED_GROUPS_KEY = "jenga-demo-v02-started-groups-v1";
 const dayNames = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"];
 const taskPresets = [
   "Тык на прод группы",
@@ -585,9 +586,9 @@ export default function Groups() {
     );
     setStartedGroupIds((current) => new Set(current).add(selected.id));
 
-    const outbox = JSON.parse(localStorage.getItem("dk-teacher-mail-outbox-v1") || "[]");
+    const outbox = JSON.parse(localStorage.getItem("jenga-demo-v02-teacher-mail-outbox-v1") || "[]");
     localStorage.setItem(
-      "dk-teacher-mail-outbox-v1",
+      "jenga-demo-v02-teacher-mail-outbox-v1",
       JSON.stringify([
         {
           id: `teacher-mail-${Date.now()}`,
@@ -602,6 +603,7 @@ export default function Groups() {
       ]),
     );
 
+    getDemoRepository().groupStarted({ id: selected.id, name: selected.name, startDate: format(new Date(selected.startDate), 'yyyy-MM-dd') });
     setStartGroupOpen(false);
     setStartSummary({
       startedGroup: getGroupTitle(selected),
@@ -626,6 +628,7 @@ export default function Groups() {
     }
 
     const startedGroups = JSON.parse(localStorage.getItem(STARTED_GROUPS_KEY) || "{}");
+    getDemoRepository().groupCancelled(selected.id);
     const launchData = startedGroups[selected.id] || {};
     const continuationId = workspace.groupLinks[selected.id]?.nextId;
     setWorkspace((current) => {
@@ -673,8 +676,8 @@ export default function Groups() {
       return next;
     });
     if (teacherEmail && teacherMessage) {
-      const outbox = JSON.parse(localStorage.getItem("dk-teacher-mail-outbox-v1") || "[]");
-      localStorage.setItem("dk-teacher-mail-outbox-v1", JSON.stringify([{
+      const outbox = JSON.parse(localStorage.getItem("jenga-demo-v02-teacher-mail-outbox-v1") || "[]");
+      localStorage.setItem("jenga-demo-v02-teacher-mail-outbox-v1", JSON.stringify([{
         id: `teacher-cancel-mail-${Date.now()}`,
         groupId: selected.id,
         to: teacherEmail,

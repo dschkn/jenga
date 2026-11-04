@@ -1,0 +1,7 @@
+import type { ReactNode } from 'react';
+import { Link } from 'react-router-dom';
+export function ModuleShell({ title, description, error, children }: { title: string; description: string; error: string; children: ReactNode }) {
+ return <section className="mx-auto max-w-6xl space-y-5"><header><div className="mb-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground">Jenga · Демо-пространство</div><h1 className="text-2xl font-semibold">{title}</h1><p className="mt-2 text-sm text-muted-foreground">{description}</p></header><nav aria-label="Коммуникации" className="flex flex-wrap gap-2">{[['chats','Чаты'],['activity','Уведомления'],['inbox','Входящие'],['calls','Звонки'],['publish','Публикации']].map(([path,label])=><Link className="rounded-md border bg-card px-3 py-2 text-sm hover:bg-yellow-100" key={path} to={'/'+path}>{label}</Link>)}</nav><p className="rounded-md border border-yellow-200 bg-yellow-50 p-3 text-xs text-black">Локальный прототип. Сообщения, звонки и публикации не отправляются во внешние сервисы.</p>{error && <p role="alert" className="rounded border border-red-300 p-3 text-sm">{error}</p>}{children}</section>;
+}
+export function Empty({ children }: { children: ReactNode }) { return <p className="rounded-lg border border-dashed p-8 text-center text-sm text-muted-foreground">{children}</p>; }
+export const fieldClass = 'min-w-0 w-full rounded-md border bg-background px-3 py-2 text-sm';

@@ -1,9 +1,11 @@
+import { useDemo } from '../features/communications/useDemo';
 import { siblingAppUrl } from '../../../../packages/platform/links.mjs';
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { cn } from '../lib/utils';
 import {
   LayoutDashboard,
+  MessageSquare, Inbox, Phone, Send,
   GraduationCap,
   UsersRound,
   CheckSquare,
@@ -31,6 +33,11 @@ import { useCurrentUser } from '../hooks/use-auth';
 import { useGlobalSearch } from '../hooks/use-search';
 
 const navigation = [
+  { name: 'Чаты', href: '/chats', icon: MessageSquare },
+  { name: 'Уведомления', href: '/activity', icon: Bell },
+  { name: 'Входящие', href: '/inbox', icon: Inbox },
+  { name: 'Звонки', href: '/calls', icon: Phone },
+  { name: 'Публикации', href: '/publish', icon: Send },
   { name: 'Главная', href: '/', icon: LayoutDashboard },
   { name: 'Заявки', href: '/applications', icon: FileText },
   { name: 'Клиенты', href: '/students', icon: GraduationCap },
@@ -60,7 +67,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   return (
     <aside
       className={cn(
-        'fixed left-0 top-0 z-40 h-screen border-r border-sidebar-border bg-sidebar transition-[width] duration-300 will-change-[width]',
+        'fixed left-0 top-0 z-40 h-screen overflow-y-auto border-r border-sidebar-border bg-sidebar transition-[width] duration-300 will-change-[width]',
         collapsed ? 'w-16' : 'w-60'
       )}
     >
@@ -104,6 +111,8 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
           return (
             <Link
               key={item.name}
+              title={item.name}
+              aria-label={item.name}
               to={item.href}
               className={cn(
                 'flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-150',
@@ -142,8 +151,10 @@ const roleLabels: Record<string, string> = {
 };
 
 export function Header({ sidebarCollapsed }: HeaderProps) {
+  const { state: demoState } = useDemo();
   const location = useLocation();
-  const { user, logout } = useCurrentUser();
+  const { user, userId, logout } = useCurrentUser();
+  const unreadCount = demoState.events.filter(e => !e.readBy.includes(userId)).length;
   const navigate = useNavigate();
   const { query, results, isOpen, handleQueryChange, selectResult, close } = useGlobalSearch();
 
@@ -162,11 +173,11 @@ export function Header({ sidebarCollapsed }: HeaderProps) {
   return (
     <header
       className={cn(
-        'fixed top-0 right-0 z-30 flex h-16 items-center justify-between border-b border-header-border bg-header/95 backdrop-blur-sm px-6 transition-[left] duration-300 will-change-[left]',
+        'fixed top-0 right-0 z-30 flex h-16 items-center justify-between border-b border-header-border bg-header/95 backdrop-blur-sm px-3 md:px-6 transition-[left] duration-300 will-change-[left]',
         sidebarCollapsed ? 'left-16' : 'left-60'
       )}
     >
-      <div className="flex items-center gap-4">
+      <div className="hidden items-center gap-4 md:flex">
         <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-header-muted" />
           <input
@@ -212,10 +223,10 @@ export function Header({ sidebarCollapsed }: HeaderProps) {
         </div>
       </div>
       <div className="flex items-center gap-3">
-        <Button variant="ghost" size="sm" className="relative h-9 w-9 text-header-muted hover:text-header-foreground hover:bg-accent">
+        <Button aria-label="Уведомления" onClick={() => navigate("/activity")} variant="ghost" size="sm" className="relative h-9 w-9 text-header-muted hover:text-header-foreground hover:bg-accent">
           <Bell className="h-5 w-5" />
           <span className="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-primary-foreground text-[10px] font-medium shadow-sm">
-            3
+            {unreadCount}
           </span>
         </Button>
         <DropdownMenu>
@@ -251,7 +262,7 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(() => window.innerWidth < 768);
   const location = useLocation();
   const isTasksPage = location.pathname.startsWith('/tasks');
 
@@ -266,7 +277,7 @@ export default function Layout({ children }: LayoutProps) {
           sidebarCollapsed ? 'ml-16' : 'ml-60'
         )}
       >
-        <div className={cn(isTasksPage ? 'p-0' : 'p-6 lg:p-8')}>{children}</div>
+        <div className={cn(isTasksPage ? 'p-0' : 'p-3 sm:p-6 lg:p-8')}>{children}</div>
       </main>
     </div>
   );

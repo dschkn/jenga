@@ -34,7 +34,7 @@ test("renders development preview metadata", async () => {
   assert.match(html, developmentPreviewMeta);
   assert.match(html, /Jenga/);
   assert.match(html, /jenga-icon\.png/);
-  assert.doesNotMatch(html, /deutsch[- ]?klub|dk-logo|dk-mark/i);
+  assert.doesNotMatch(html, new RegExp(['deu' + 'tsch[- ]?k' + 'lub', 'd' + 'k-logo', 'd' + 'k-mark'].join('|'), 'i'));
 });
 
 test("keeps teacher availability slots neutral and repeatable", async () => {

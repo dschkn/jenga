@@ -49,9 +49,9 @@ import { importedStudents } from '../data/importedStudents';
 import { realGroups, type RealGroup } from '../data/realGroups';
 import { cn } from '../lib/utils';
 
-const STORAGE_KEY = 'dk-admin-kanban-v1';
-const TRASH_STORAGE_KEY = 'dk-admin-kanban-trash-v1';
-const GROUPS_STORAGE_KEY = 'dk-groups-workspace-v2';
+const STORAGE_KEY = 'jenga-demo-v02-admin-kanban-v1';
+const TRASH_STORAGE_KEY = 'jenga-demo-v02-admin-kanban-trash-v1';
+const GROUPS_STORAGE_KEY = 'jenga-demo-v02-groups-workspace-v2';
 const motivationalSlogans = {
   light: ['Спокойный день — работаем в своём ритме!', 'Небольшой список — отличный шанс закрыть всё!', 'Сегодня можно уверенно идти на опережение.', 'Задач немного — доведём каждую до блеска.', 'Лёгкий темп, точный результат.', 'Есть время сделать всё внимательно.', 'Короткий список — чистая победа!', 'Отличный день для порядка и деталей.'],
   medium: ['Вперёд, команда!', 'Хороший темп — всё под контролем.', 'Разбираем по одной и уверенно движемся дальше.', 'Командный ритм включён!', 'План понятен — пора действовать.', 'Собранность, взаимопомощь, результат.', 'Держим курс и закрываем важное.', 'Сегодня каждый шаг двигает команду вперёд.'],
@@ -140,6 +140,7 @@ function regulationTask(
 }
 
 function addDailyRegulationTasks(tasks: DemoBoardTask[]): DemoBoardTask[] {
+  if (!getAdminDirectory().some(admin => admin.active)) return tasks;
   try {
     const workspace = JSON.parse(window.localStorage.getItem(GROUPS_STORAGE_KEY) || '{}') as StoredGroupsWorkspace;
     const groups = [...realGroups, ...(workspace.customGroups || [])].map((group) => ({
@@ -226,7 +227,7 @@ function loadTasks(): DemoBoardTask[] {
       ? (parsed as DemoBoardTask[]).filter((task) => !demoIds.has(task.id))
       : [];
     const tasks = addDailyRegulationTasks(realTasks);
-    const cleanupKey = 'dk-unassigned-cleanup-2026-09';
+    const cleanupKey = 'jenga-demo-v02-unassigned-cleanup-2026-09';
     if (!window.localStorage.getItem(cleanupKey)) {
       window.localStorage.setItem(cleanupKey, 'done');
       let unassignedKept = 0;

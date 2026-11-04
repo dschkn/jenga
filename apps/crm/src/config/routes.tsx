@@ -8,6 +8,11 @@ export interface ProtectedRoute {
 }
 
 export const protectedRoutes: ProtectedRoute[] = [
+  { path: '/chats', component: lazy(() => import('../features/communications/Chats')) },
+  { path: '/activity', component: lazy(() => import('../features/communications/Events')) },
+  { path: '/inbox', component: lazy(() => import('../features/communications/Inbox')) },
+  { path: '/calls', component: lazy(() => import('../features/communications/Calls')) },
+  { path: '/publish', component: lazy(() => import('../features/communications/Publish')) },
   { path: '/', component: lazy(() => import('../pages/Dashboard')) },
   { path: '/applications', component: lazy(() => import('../pages/Applications')) },
   { path: '/students', component: lazy(() => import('../pages/Students')) },

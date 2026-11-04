@@ -98,6 +98,26 @@ export class DataStore {
     return DataStore.instance;
   }
 
+  enableDemoPersistence(): void {
+    const key = 'jenga-demo-v02-core';
+    const maps = Object.entries(this).filter(([, value]) => value instanceof Map) as [string, Map<string, unknown>][];
+    try {
+      const raw = localStorage.getItem(key);
+      if (raw) {
+        const saved = JSON.parse(raw, (name, value) =>
+          typeof value === 'string' && /(?:At|Date)$|^(start|end)$/.test(name) && /^\d{4}-\d{2}-\d{2}T/.test(value)
+            ? new Date(value) : value);
+        for (const [name, map] of maps) {
+          if (Array.isArray(saved[name])) { map.clear(); saved[name].forEach(([id, value]: [string, unknown]) => map.set(id, value)); }
+        }
+      }
+    } catch { console.warn('Local demo snapshot could not be loaded'); }
+    this.subscribe(() => {
+      try { localStorage.setItem(key, JSON.stringify(Object.fromEntries(maps.map(([name, map]) => [name, [...map.entries()]])))); }
+      catch { console.warn('Local demo snapshot could not be saved'); }
+    });
+  }
+
   // --- Subscription ---
 
   subscribe(fn: Listener): () => void {

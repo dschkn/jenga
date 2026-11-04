@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from "react";
 import { siblingAppUrl } from "../../../packages/platform/links.mjs";
+import Chats from "./chats";
 import scheduleData from "./schedule-data.json";
 
 function CrmLink() {
@@ -11,7 +12,7 @@ function CrmLink() {
   return url ? <a className="suite-link" href={url}>Открыть Jenga CRM ↗</a> : null;
 }
 
-type Tab = "today" | "calendar" | "stats" | "profile";
+type Tab = "chats" | "today" | "calendar" | "stats" | "profile";
 type AttendanceStatus = "present" | "absent" | null;
 type LessonAction = "cancel" | "reschedule";
 
@@ -237,6 +238,7 @@ export default function Home() {
           <NavButton tab="today" activeTab={activeTab} label="Сегодня" icon="home" onClick={setActiveTab} />
           <NavButton tab="calendar" activeTab={activeTab} label="Календарь" icon="calendar" onClick={setActiveTab} />
           <NavButton tab="stats" activeTab={activeTab} label="Статистика" icon="stats" onClick={setActiveTab} />
+          <NavButton tab="chats" activeTab={activeTab} label="Чаты" icon="profile" onClick={setActiveTab} />
           <NavButton tab="profile" activeTab={activeTab} label="Профиль" icon="profile" onClick={setActiveTab} />
         </nav>
 
@@ -262,6 +264,7 @@ export default function Home() {
           </button>
         </header>
 
+        {activeTab === "chats" && <Chats />}
         {activeTab === "today" && (
           <TodayView
             date={currentDate}
@@ -307,7 +310,8 @@ export default function Home() {
         <NavButton tab="today" activeTab={activeTab} label="Сегодня" icon="home" onClick={setActiveTab} />
         <NavButton tab="calendar" activeTab={activeTab} label="Календарь" icon="calendar" onClick={setActiveTab} />
         <NavButton tab="stats" activeTab={activeTab} label="Статистика" icon="stats" onClick={setActiveTab} />
-        <NavButton tab="profile" activeTab={activeTab} label="Профиль" icon="profile" onClick={setActiveTab} />
+        <NavButton tab="chats" activeTab={activeTab} label="Чаты" icon="profile" onClick={setActiveTab} />
+          <NavButton tab="profile" activeTab={activeTab} label="Профиль" icon="profile" onClick={setActiveTab} />
       </nav>
 
       {selectedLesson && (
@@ -445,6 +449,8 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
           <CrmLink />
           <p className="demo-credentials"><strong>Демо-доступ</strong><span>Логин: marina</span><span>Пароль: jenga2026</span></p>
         </form>
+        <button type="button" className="login-submit" onClick={onLogin}>Открыть локальное демо</button>
+
       </section>
     </main>
   );
@@ -876,10 +882,10 @@ function ProfileView({ installed, profile, onInstall, onEdit, onLogout }: {
 }) {
   const [profileSection, setProfileSection] = useState<"availability" | "trialAvailability" | "message" | null>(null);
   const [showAvailabilityForm, setShowAvailabilityForm] = useState(false);
-  const [availability, setAvailability] = useState([{ id: 1, date: "2026-07-18", from: "15:00", to: "19:00", status: "Отправлено" }]);
+  const [availability, setAvailability] = useState<{ id: number; date: string; from: string; to: string; status: string }[]>([]);
   const [draftAvailability, setDraftAvailability] = useState({ date: currentDate, from: "09:00", to: "18:00" });
   const [showTrialForm, setShowTrialForm] = useState(false);
-  const [trialAvailability, setTrialAvailability] = useState([{ id: 1, date: "2026-07-16", from: "17:00", to: "19:00" }]);
+  const [trialAvailability, setTrialAvailability] = useState<{ id: number; date: string; from: string; to: string }[]>([]);
   const [editingTrialId, setEditingTrialId] = useState<number | null>(null);
   const [draftTrial, setDraftTrial] = useState({ date: currentDate, from: "16:00", to: "19:00" });
   const [adminMessage, setAdminMessage] = useState("");
